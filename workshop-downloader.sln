@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "workshop-downloader", "workshop-downloader\workshop-downloader.csproj", "{7BD6BD56-9B96-4A13-B93F-7D831F08DF22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "workshop-downloader-gui", "workshop-downloader-gui\workshop-downloader-gui.csproj", "{AA3BCDB5-580A-4B77-B20A-89D8E0FE6D7E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7BD6BD56-9B96-4A13-B93F-7D831F08DF22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BD6BD56-9B96-4A13-B93F-7D831F08DF22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BD6BD56-9B96-4A13-B93F-7D831F08DF22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BD6BD56-9B96-4A13-B93F-7D831F08DF22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA3BCDB5-580A-4B77-B20A-89D8E0FE6D7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA3BCDB5-580A-4B77-B20A-89D8E0FE6D7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA3BCDB5-580A-4B77-B20A-89D8E0FE6D7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA3BCDB5-580A-4B77-B20A-89D8E0FE6D7E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {37E0BE3B-BCD4-4A4A-AE35-B3018BCC4706}
+	EndGlobalSection
+EndGlobal
