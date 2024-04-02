@@ -61,7 +61,8 @@ namespace workshop_downloader
                 Match m = my_pattern.Match(line);
                 if (m.Success)
                 {
-                    string workshopfilename = Path.Combine(m.Groups[1].Value, "publish.gma");
+                    string locatedfile = Directory.GetFiles(m.Groups[1].Value).First();
+                    string workshopfilename = locatedfile;//Path.Combine(m.Groups[1].Value, Directory.GetFiles(m.Groups[1].Value).First());
                     Console.WriteLine(workshopfilename);
                 }
             }
