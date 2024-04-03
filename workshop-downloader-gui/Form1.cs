@@ -31,7 +31,12 @@ namespace workshop_downloader_gui
             if(m.Success )
             {
                 ThreadPool.QueueUserWorkItem((object o ) => {
+#if (DEBUG)
                     string working_path = Path.Combine(Environment.CurrentDirectory, "..\\..\\..\\workshop-downloader\\bin\\debug\\");
+#else
+   string working_path = Environment.CurrentDirectory;
+#endif
+
                     string workshop_downloader_path = Path.Combine(working_path, "workshop-downloader.exe");
                     Process p = new Process();
                     p.StartInfo.FileName = workshop_downloader_path;
