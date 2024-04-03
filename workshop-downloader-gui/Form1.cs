@@ -70,7 +70,8 @@ namespace workshop_downloader_gui
  
                 SaveFileDialog sfd = new SaveFileDialog();
                 sfd.InitialDirectory = Environment.CurrentDirectory;
-                sfd.Filter = "GMA *.gma|*.gma";
+                sfd.FileName = Path.GetFileName(hello);
+                sfd.Filter = "All files *.*|*.*|GMA *.gma|*.gma";
 
                 MessageBox.Show("Successfully downloaded file!", "Steam Workshop Downloader", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
 
