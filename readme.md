@@ -1,4 +1,5 @@
-# Steam Workshop Downloader
+# Steam Workshop Downloader (ARCHIVED)
+ARCHIVED IN FAVOR OF MY NEWER VERSION: https://github.com/simplesingularity/wsdl
 Uses steamcmd.exe. Easy to use. Includes graphical interface.
 
 # Example command line usage
